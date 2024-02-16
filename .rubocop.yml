@@ -1,0 +1,39 @@
+AllCops:
+  NewCops: enable
+  SuggestExtensions: false
+  Exclude:
+    - spec/*
+    - keycloak-connect-ruby.gemspec
+
+Gemspec/RequiredRubyVersion:
+  Enabled: false
+
+Style/OpenStructUse:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Lint/UnusedMethodArgument:
+  Enabled: false
+
+Style/WordArray:
+  Enabled: false
+
+Style/MutableConstant:
+  Enabled: false
+
+Layout/EmptyLineBetweenDefs:
+  Enabled: false
+
+Style/SymbolArray:
+  Enabled: false
+
+Lint/ScriptPermission:
+  Enabled: false
+
+Layout/LineLength:
+  Enabled: false
+
+Style/StringLiterals:
+  EnforcedStyle: single_quotes
